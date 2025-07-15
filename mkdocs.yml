@@ -1,0 +1,19 @@
+site_name: Preggy Prep Pages!
+theme:
+  name: material
+  features:
+    - navigation.instant          # snappy page loads
+    - navigation.sections
+    - content.code.copy
+  palette:
+    primary: indigo
+nav:
+  - Home: index.md
+  - Checklists:
+      - Pre-conception: checklists/preconception.md
+      - First Trimester: checklists/first_trimester.md
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.superfences
+repo_url: https://github.com/<YOUR_USER>/preggers-preparation
